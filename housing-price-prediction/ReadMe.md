@@ -1,0 +1,81 @@
+# Dataset Description
+
+## Column Description
+
+- `lot_frontage`: Linear feet of street connected to property
+- `lot_area`: Lot size in square feet
+- `overall_qual`: Overall material and finish quality
+- `overall_cond`: Overall condition rating
+- `year_built`: Original construction date
+- `year_remod/add`: Remodel date (same as construction date if no remodeling or additions)
+- `mas_vnr_area`: Masonry veneer area in square feet
+- `bsmtfin_sf_1`: Type 1 finished square feet
+- `bsmtfin_sf_2`: Type 2 finished square feet
+- `bsmt_unf_sf`: Unfinished square feet of basement area
+- `total_bsmt_sf`: Total square feet of basement area
+- `1st_flr_sf`: First Floor square feet
+- `2nd_flr_sf`: Second floor square feet
+- `low_qual_fin_sf`: Low quality finished square feet (all floors)
+- `gr_liv_area`: Above-grade (ground) living area square feet
+- `bsmt_full_bath`: Basement full bathrooms
+- `bsmt_half_bath`: Basement half bathrooms
+- `full_bath`: Full bathrooms above grade
+- `half_bath`: Half baths above grade
+- `bedroom_abvgr`: Bedrooms above grade (does NOT include basement bedrooms)
+- `kitchen_abvgr`: Kitchens above grade
+- `totrms_abvgrd`: Total rooms above grade (does not include bathrooms)
+- `fireplaces`: Number of fireplaces
+- `garage_cars`: Size of garage in car capacity
+- `garage_area`: Size of garage in square feet
+- `wood_deck_sf`: Wood deck area in square feet
+- `open_porch_sf`: Open porch area in square feet
+- `enclosed_porch`: Enclosed porch area in square feet
+- `3ssn_porch`: Three season porch area in square feet
+- `screen_porch`: Screen porch area in square feet
+- `pool_area`: Pool area in square feet
+- `misc_val`: $Value of miscellaneous feature
+
+
+- `ms_zoning`: Zoning classification
+- `street`: Type of road access to property
+- `alley`: Type of alley access to property
+- `lot_shape`: General shape of property
+- `land_contour`: Flatness of the property
+- `utilities`: Type of utilities available
+- `lot_config`: Lot configuration
+- `land_slope`: Slope of property
+- `neighborhood`: Physical locations within Ames city limits
+- `condition_1`: Proximity to various conditions
+- `condition_2`: Proximity to various conditions (if more than one is present)
+- `bldg_type`: Type of dwelling
+- `house_style`: Style of dwelling
+- `roof_style`: Type of roof
+- `roof_matl`: Roof material
+- `exterior_1st`: Exterior covering on house
+- `exterior_2nd`: Exterior covering on house (if more than one material)
+- `mas_vnr_type`: Masonry veneer type
+- `exter_qual`: Exterior material quality
+- `exter_cond`: Present condition of the material on the exterior
+- `foundation`: Type of foundation
+- `bsmt_qual`: Height of the basement
+- `bsmt_cond`: General condition of the basement
+- `bsmt_exposure`: Walkout or garden level basement walls
+- `bsmtfin_type_1`: Quality of basement finished area
+- `bsmtfin_type_2`: Quality of second finished area (if present)
+- `heating`: Type of heating
+- `heating_qc`: Heating quality and condition
+- `central_air`: Central air conditioning
+- `electrical`: Electrical system
+- `kitchen_qual`: Kitchen quality
+- `functional`: Home functionality rating
+- `fireplace_qu`: Fireplace quality
+- `garage_type`: Garage location
+- `garage_finish`: Interior finish of the garage
+- `garage_qual`: Garage quality
+- `garage_cond`: Garage condition
+- `paved_drive`: Paved driveway
+- `pool_qc`: Pool quality
+- `fence`: Fence quality
+- `misc_feature`: Miscellaneous feature not covered in other categories
+- `sale_type`: Type of sale
+- `sale_condition`: Condition of sale
